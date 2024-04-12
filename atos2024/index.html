@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <title>ATOS-2024</title>
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet" />
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <span id="burg"class="material-symbols-outlined" onclick="clickMenu()">menu</span>
+        <menu id="itens">
+            <ul>
+                <li><a href="https://www.youtube.com/watch?v=Pk2N-lWF1Cw&ab_channel=Hin%C3%A1rioAdventistaCompleto" target="_blank" rel="externel">Inscreva-se</a></li>
+                <li><a href="pag02.html" target="_blank" rel="extarnel">Fotos</a></li>
+                <li><a href="https://www.instagram.com/jovens.aml/" target="_blank" rel="extarnel">Instagram</a></li>
+            </ul>
+        </menu>
+    </header>
+    <div class="interface">
+        <section class="pag1">
+    <img src="atoso1.png" alt="atos">
+        </section>
+        <section class="pag2">
+            <div class="video">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/i3oMuUEBXqA?si=OgyM-4QKrJ5bsgtA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            </div>
+            <div class="tex">
+                <h1>Vem Pro Atos!</h1>
+                <br>
+                <p>Sonhamos em ver uma geração viva se 
+                    levantando na igreja. Uma geração mais 
+                    comprometida com as coisas de Deus. Uma geração que vive na prática os desafios do evangelho. Essa é a nossa maior necessidade. 
+                    Atos - Pentecostes Hoje é um movimento. Um 
+                    movimento convidando uma geração viva a se levantar! E quando falamos de uma geração viva, estamos falando de uma juventude que é 
+                    amada no céu, temida no inferno e conhecida 
+                    na terra. Venha sonhar comigo! Faça parte dessa geração! Eu quero um Pentecostes em minha vida! E você?
+                    </p>
+            </div>
+        </section>
+        <section class="pag3">
+            <img src="atos02.png" alt="img">
+        </section>
+
+        <section class="pag4">
+            <img src="Tape 1 copy 3.jpg" alt="">
+        </section>
+    </div>
+    <main>
+    </main>
+    <button onclick="scrollToTop()" id="btn-top" title="Voltar ao Topo">Topo</button>
+    <script>
+        function clickMenu(){
+            if(itens.style.display =="block"){
+                itens.style.display="none"
+            }else{
+                itens.style.display="block"
+            }
+        }
+    </script>
+
+    <script src="app.js"></script>
+
+</body>
+</html>
